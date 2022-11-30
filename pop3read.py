@@ -1,7 +1,7 @@
 import poplib
 pop3server = 'pop.gmail.com'
-username = '20z208@psgtech.ac.in'
-password = 'ASHWIN12345'
+username = 'your_email_address'
+password = '********'
 pop3server = poplib.POP3_SSL(pop3server) # open connection
 print (pop3server.getwelcome()) #show welcome message
 pop3server.user(username)

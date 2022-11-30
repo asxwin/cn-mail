@@ -2,8 +2,8 @@ import imaplib
 import email
 from email.header import decode_header
 
-username = "20z208@psgtech.ac.in"
-password = "ASHWIN12345"
+username = "your_email_address"
+password = "********"
 
 imap = imaplib.IMAP4_SSL("imap.gmail.com")
 imap.login(username, password)

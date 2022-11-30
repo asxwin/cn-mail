@@ -2,8 +2,8 @@ import imaplib
 import pprint
 
 imap_host = 'imap.gmail.com'
-imap_user = '20z208@psgtech.ac.in'
-imap_pass = 'ASHWIN12345'
+imap_user = 'your_email_address'
+imap_pass = '********'
 
 imap = imaplib.IMAP4_SSL(imap_host)
 
